@@ -1,4 +1,4 @@
-from typing import Callable, Dict, NamedTuple, Optional
+from typing import NamedTuple, Optional
 
 from BaseClasses import Item, ItemClassification, MultiWorld
 

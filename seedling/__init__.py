@@ -10,6 +10,14 @@ from .Rules import generated_rules, has_item
 
 class SeedlingWebWorld(WebWorld):
     theme = "grass"
+    tutorials = [Tutorial(
+        "Multiworld Setup Guide",
+        "A guide to playing Seedling Randomizer.",
+        "English",
+        "multiworld_en.md",
+        "multiworld/en",
+        ["Madison Silver"]
+    )]
 
 
 class SeedlingWorld(World):
