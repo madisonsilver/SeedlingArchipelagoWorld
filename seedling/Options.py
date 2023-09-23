@@ -12,6 +12,7 @@ class Difficulty(Choice):
 
 class BossLocations(Toggle):
     """If enabled, adds an extra location and Seal for each boss."""
+    display_name = "Boss Locations"
     default = False
 
 class Ending(Choice):

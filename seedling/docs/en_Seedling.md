@@ -8,7 +8,7 @@ config file.
 ## What does randomization do to this game?
 
 Items which would normally be acquired throughout the game have been moved around! Progression logic remains, so the
-game is always able to be completed. However, because of the item shuffle, the player may need to access certain areas
+game is always completable. However, because of the item shuffle, the player may need to access certain areas
 before they would in the vanilla game.
 
 ## What items and locations get shuffled?
@@ -23,7 +23,3 @@ Any of the items which can be shuffled may also be placed in another player's wo
 ## What does another world's item look like in Seedling?
 
 Upgrades, keys, totem shards, or chests.  If Boss Locations are enabled, killing a boss will also send out an item.
-
-## What happens when the player receives an item?
-
-When the player receives an item, it will automatically be added to the inventory.
