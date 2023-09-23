@@ -14,7 +14,7 @@ before they would in the vanilla game.
 ## What items and locations get shuffled?
 
 All upgrades, keys, totem shards, and seals are shuffled.
-If "Boss Checks" is enabled, boss kills are also locations, and corresponding Seals are added to the pool.
+If "Boss Locations" is enabled, boss kills are also locations, and corresponding Seals are added to the pool.
 
 ## Which items can be in another player's world?
 
@@ -22,7 +22,7 @@ Any of the items which can be shuffled may also be placed in another player's wo
 
 ## What does another world's item look like in Seedling?
 
-Upgrades, keys, totem shards, or chests.  If boss checks are enabled, killing a boss will also send out an item.
+Upgrades, keys, totem shards, or chests.  If Boss Locations are enabled, killing a boss will also send out an item.
 
 ## What happens when the player receives an item?
 
