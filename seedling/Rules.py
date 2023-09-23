@@ -74,7 +74,7 @@ def generated_rules(multiworld: MultiWorld, player: int):
         )
     )
     multiworld.get_location(
-        "Chest (Andan's cave)", player
+        "Chest (Adnan's cave)", player
     ).access_rule = lambda state: (
         (
             has_item(state, player, "Sword")
@@ -533,10 +533,10 @@ def generated_rules(multiworld: MultiWorld, player: int):
         )
     multiworld.get_location(
         "Totem Shard (Three Blocks Puzzle)", player
-    ).access_rule = lambda state: ((has_item(state, player, "Fire")))
+    ).access_rule = lambda state: (has_item(state, player, "Fire"))
     multiworld.get_location(
         "Totem Shard (Main Room Left)", player
-    ).access_rule = lambda state: ((has_item(state, player, "Fire")))
+    ).access_rule = lambda state: (has_item(state, player, "Fire"))
     multiworld.get_location(
         "Totem Shard (Mortar)", player
     ).access_rule = lambda state: (

@@ -28,7 +28,7 @@ location_data_table: Dict[str, SeedlingLocationData] = {
     "Chest (Waterfall)": SeedlingLocationData(
         region="Overworld", address=3 + offset, is_boss=False
     ),
-    "Chest (Andan's cave)": SeedlingLocationData(
+    "Chest (Adnan's cave)": SeedlingLocationData(
         region="Overworld", address=4 + offset, is_boss=False
     ),
     "Chest (South Rocks)": SeedlingLocationData(

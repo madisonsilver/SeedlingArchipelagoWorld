@@ -1,5 +1,5 @@
 from typing import List
-from BaseClasses import Region
+from BaseClasses import Region, Tutorial
 from worlds.AutoWorld import WebWorld, World
 from .Items import SeedlingItem, item_data_table, item_table
 from .Regions import region_data_table
