@@ -36,11 +36,11 @@ class SeedlingWorld(World):
         item_pool: List[SeedlingItem] = []
         for name, item in item_data_table.items():
             if name == "Seal":
-                item_pool.extend([self.create_item(name)] * 16)
+                item_pool.extend([self.create_item(name) for _ in range(16)])
                 if getattr(self.multiworld, "boss_locations")[self.player]:
-                    item_pool.extend([self.create_item(name)] * 7)
+                    item_pool.extend([self.create_item(name) for _ in range(7)])
             elif name == "Totem Shard":
-                item_pool.extend([self.create_item(name)] * 5)
+                item_pool.extend([self.create_item(name) for _ in range(5)])
             elif name == "Nothing":
                 pass
             elif name in [
@@ -48,7 +48,7 @@ class SeedlingWorld(World):
                 "Progressive Shield",
                 "Progressive Swim",
             ]:
-                item_pool.extend([self.create_item(name)] * 2)
+                item_pool.extend([self.create_item(name) for _ in range(2)])
             else:
                 item_pool.append(self.create_item(name))
 
