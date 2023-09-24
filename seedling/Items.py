@@ -53,7 +53,7 @@ item_data_table: dict[str, SeedlingItemData] = {
     "Fire Wand Fusion": SeedlingItemData(
         code=16 + offset, type=ItemClassification.progression
     ),
-    "Seal": SeedlingItemData(code=17 + offset, type=ItemClassification.progression),
+    "Seal": SeedlingItemData(code=17 + offset, type=ItemClassification.progression_skip_balancing),
     "Nothing": SeedlingItemData(code=18 + offset, type=ItemClassification.filler),
 }
 
